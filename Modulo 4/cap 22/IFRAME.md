@@ -17,3 +17,9 @@ scrolling
 
 frammeborder
     [0,1]
+
+
+# Navegações no Iframe #
+
+ <!-- <iframe src="" id="tela" name="frame"> -->
+ <!-- <a href="paginas-extras/pg003.html" target="frame"> -->
