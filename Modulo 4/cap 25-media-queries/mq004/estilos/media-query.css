@@ -2,4 +2,113 @@
 /* Todas as demais midias */
 
 
+@media print {
+
+
+    
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) { /* Tablet  */
+
+   
+    body{
+
+        background-image: url(../imagens/back-tablet.jpg);
+        
+
+    }
+
+    img#tablet{
+        display: block;
+
+    }
+
+    img#phone{
+
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) { /* Desk  */
+
+
+
+     body{
+
+        background-image: url(../imagens/back-pc.jpg);
+        
+
+    }
+
+    img#pc{
+        display: block;
+
+    }
+
+    img#phone{
+
+        display: none;
+    }
+    
+
+    img#tablet{
+
+        display: none;
+    }
+   
+    
+}
+
+
+
+@media screen and (min-width:1200px) { /*  Telas grandes  */
+
+
+
+    body{
+
+        background-image: url(../imagens/back-tv.jpg);
+        
+
+    }
+
+    img#tv{
+        display: block;
+
+    }
+
+
+    img#phone{
+
+        display: none;
+    }
+    
+
+    img#tablet{
+
+        display: none;
+    }
+
+    main{
+
+        width: 700px;
+
+    }
+   
+    
+}
+    
+
+
+
+
+
+
+
+
 

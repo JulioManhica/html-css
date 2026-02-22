@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu responsa</title>
+<link rel="stylesheet" href="estilos/style.css">
+<link rel="stylesheet" href="estilos/media-query.css">
+
+<style></style>
+</head>
+<body onresize="mudouTamanho()">
+
+
+    <header>
+
+        <h1>Meu site</h1>
+        <i id="burguer" align="center" onclick="clickMenu()">=</i>
+
+        <menu id="itens">
+
+            <ul>
+                <li><a href="">opcao 1</a></li>
+                <li><a href="">Opcao 2</a></li>
+                <li><a href="">Opcao 3</a></li>
+                <li><a href="">Opcao 4</a></li>
+                <li><a href="">Opcao 5</a></li>
+
+            </ul>
+
+        </menu>
+
+    </header>
+
+
+    <main>
+
+        <article>
+                <h2>Testando </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis, laudantium ratione ullam neque cupiditate eos est, maxime rerum error suscipit dolor inventore aut beatae maiores voluptates, perferendis adipisci in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam vero ipsam in eligendi optio? Velit porro suscipit mollitia. Qui, at atque. Consequuntur optio distinctio rem eum, sapiente eligendi dolor!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis, laudantium ratione ullam neque cupiditate eos est, maxime rerum error suscipit dolor inventore aut beatae maiores voluptates, perferendis adipisci in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam vero ipsam in eligendi optio? Velit porro suscipit mollitia. Qui, at atque. Consequuntur optio distinctio rem eum, sapiente eligendi dolor!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis, laudantium ratione ullam neque cupiditate eos est, maxime rerum error suscipit dolor inventore aut beatae maiores voluptates, perferendis adipisci in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam vero ipsam in eligendi optio? Velit porro suscipit mollitia. Qui, at atque. Consequuntur optio distinctio rem eum, sapiente eligendi dolor!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis, laudantium ratione ullam neque cupiditate eos est, maxime rerum error suscipit dolor inventore aut beatae maiores voluptates, perferendis adipisci in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam vero ipsam in eligendi optio? Velit porro suscipit mollitia. Qui, at atque. Consequuntur optio distinctio rem eum, sapiente eligendi dolor!</p>
+         
+                
+
+
+        </article>
+ 
+    </main>
+
+
+            <script>
+                let i = document.getElementById('itens')
+
+
+                        function mudouTamanho(){
+                            //forca a exibicao respeitando a condicao
+
+                            if(window.innerWidth >=768){
+
+
+                                    i.style.display = 'block'
+
+                            } else{
+
+                                i.style.display = 'none'
+
+                            }
+
+
+                        }
+
+                    function clickMenu(){
+                            // Se esta sendo exibido ou nao
+
+                        if(i.style.display == 'block'){
+
+                                    i.style.display = 'none'
+
+                        } else {
+
+                                i.style.display = 'block'
+
+                        }
+                    
+
+                    }
+
+
+
+            </script>
+<script src=""></script>
+</body>
+</html>
